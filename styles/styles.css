@@ -105,17 +105,44 @@
     background-image: url('../assets/bg.png');
 }
 .standard-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     gap: 28px;
-    width: 1160px;
+    
     
     
     
     
 
+}
+.symbol{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+#less{
+    color: white;
+    border-radius:50px ;
+    
+    padding: 20px;
+    background-color: orange;
+    text-align: center;
+    
+    
+    
+}
+#great{
+    color: white;
+    border-radius: 50px;
+    
+    padding: 20px;
+    background-color: orange;
+    text-align: center;
 }
 .stan-des{
     font-size: 1rem;
@@ -142,12 +169,18 @@
 }
 .kinder{
     box-shadow:0 0 28px 1px rgba(222, 245, 255, 1)inset ;
+    height: 476px;
+    width: 420px;
 }
 .elementary{
     box-shadow:0 0 28px 1px #FFF4DC inset ;
+    height: 476px;
+    width: 420px;
 }
 .middle{
     box-shadow:0 0 28px 1px #F2E8FF inset ;
+    height: 476px;
+    width: 420px;
 }
 #kin{
     border: none;
@@ -168,12 +201,64 @@
     
     justify-content: center;
 }
-#less{
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+
+/* Stories section start */
+.stories-container{
+    display: flex;
+    gap: 19px;
+    justify-content: space-around;
+    width:1160px ;
+    
+    
 }
-#great{
-    width: 60px;
-    height: 60px;
+.pera{
+    position: relative;
+    top: -800px;
+
+
 }
+.story-all{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19px;
+    width: 290px;
+}
+.stories{
+    
+    
+    background: linear-gradient(rgba(254, 163, 1, 0.3), #FFFFFF  ) ;
+    
+    
+}
+.text1{
+    border: 1px solid white ;
+    border-radius:0 0 16px 16px ;
+    background-color: white;
+    margin-top: -10px;
+    
+    
+}
+.story1{
+    width: 540px;
+    height: 630px;
+}
+.story-head{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sto-des{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.story-icon{
+    width: 540px;
+}
+.story{
+    
+
+
+}
+

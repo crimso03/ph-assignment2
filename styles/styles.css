@@ -287,10 +287,45 @@ nav{
 @media screen and (max-width:425px){
     .standard-container{
         flex-direction: column;
+        
+    }
+    .curri{
+        font-size: 1.5rem;
     }
     .symbol{
         display: none;
     }
+    .kinder{
+        box-shadow:0 0 28px 1px rgba(222, 245, 255, 1)inset ;
+        height: 476px;
+        width: 380px;
+    }
+    .elementary{
+        box-shadow:0 0 28px 1px #FFF4DC inset ;
+        height: 476px;
+        width: 380px;
+    }
+    .middle{
+        box-shadow:0 0 28px 1px #F2E8FF inset ;
+        height: 476px;
+        width: 380px;
+    }
+    .stan-des{
+        font-size: 1rem;
+        font-weight: 500;
+        color: #808080;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .stan-head{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .curri-sec{
+        background-image: url('../assets/bg.png');
+        background-size: 380px;
+    }
+    
 
 }
 /* Stories section start */
@@ -501,7 +536,7 @@ nav{
 
     }
     #sto2{
-        width: 75%;
+        width: 50%;
        font-size: .5rem;
        position: relative;
        
@@ -510,19 +545,19 @@ nav{
     }
 
     #sto3{
-        width: 75%;
+        width: 50%;
         
         font-size: .5rem;
     }
 
     #sto4{
-        width: 75%;
+        width: 50%;
         
         font-size: .5rem;
     }
 
     #sto5{
-        width: 75%;
+        width: 50%;
         
         font-size: .5rem;
     }
@@ -575,3 +610,6 @@ footer{
     }
 }
 
+.display{
+    display: none;
+}
